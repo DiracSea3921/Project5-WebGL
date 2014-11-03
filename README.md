@@ -18,6 +18,8 @@ Sin Wave start from center of the plane
 PART 2
 -------------------------------------------------------------------------------
 
+[Run The Demo](http://diracsea3921.github.io/Project5-WebGL/) 
+
 Implemented:
 
 * Bump mapped terrain
@@ -30,6 +32,8 @@ Extra:
 
 * Cloud shadows via ray-tracing through the cloud map in the fragment shader
 
+Add a uniform light dir vector in world space to help calculate the correct offset.
+
 ![](https://github.com/DiracSea3921/Project5-WebGL/blob/master/earth.png)
 
 ![](https://github.com/DiracSea3921/Project5-WebGL/blob/master/earth2.png)
@@ -38,26 +42,6 @@ Extra:
 
 ![](https://github.com/DiracSea3921/Project5-WebGL/blob/master/earth4.png)
 
--------------------------------------------------------------------------------
-GH-PAGES
--------------------------------------------------------------------------------
-Since this assignment is in WebGL you will make your project easily viewable by 
-taking advantage of GitHub's project pages feature.
-
-Once you are done you will need to create a new branch named gh-pages:
-
-`git branch gh-pages`
-
-Switch to your new branch:
-
-`git checkout gh-pages`
-
-Create an index.html file that is either your renamed frag_globe.html or 
-contains a link to it, commit, and then push as usual. Now you can go to 
-
-`<user_name>.github.io/<project_name>` 
-
-to see your beautiful globe from anywhere.
 
 -------------------------------------------------------------------------------
 README
