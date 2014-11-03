@@ -22,13 +22,11 @@
 	uniform float u_Height;
     void main(void)
     {
-      float s_contrib = sin(position.x*2.0*3.14159 + u_time);
-	  float t_contrib = cos(position.y*2.0*3.14159 + u_time);
-	  float height = s_contrib*t_contrib* u_Height;
+	    float height = sin(sqrt((position.y - 0.5) * (position.y - 0.5) +  (position.x - 0.5) * (position.x - 0.5)) * 2.0 * 3.14159 + u_time) * u_Height;
 
       // NOTE : gl_Position is always a vec4
-		  gl_Position = u_modelViewPerspective * vec4(vec3(position, height) , 1.0);
-		  ps_height = height;
+		gl_Position = u_modelViewPerspective * vec4(vec3(position, height), 1.0) ;
+		ps_height = height;
     }
 </script>
 
