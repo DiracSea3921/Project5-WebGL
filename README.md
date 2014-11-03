@@ -8,10 +8,10 @@ Fall 2014
 PART 1
 -------------------------------------------------------------------------------
 
-![](https://github.com/DiracSea3921/Project5-WebGL/tree/master/vert.png)
+![](https://github.com/DiracSea3921/Project5-WebGL/blob/master/vert.png)
 
 
-![](https://github.com/DiracSea3921/Project5-WebGL/tree/master/sin.png)
+![](https://github.com/DiracSea3921/Project5-WebGL/blob/master/sin.png)
 Sin Wave start from center of the plane
 
 -------------------------------------------------------------------------------
@@ -30,13 +30,13 @@ Extra:
 
 * Cloud shadows via ray-tracing through the cloud map in the fragment shader
 
-![](https://github.com/DiracSea3921/Project5-WebGL/tree/master/earth.png)
+![](https://github.com/DiracSea3921/Project5-WebGL/blob/master/earth.png)
 
-![](https://github.com/DiracSea3921/Project5-WebGL/tree/master/earth2.png)
+![](https://github.com/DiracSea3921/Project5-WebGL/blob/master/earth2.png)
 
-![](https://github.com/DiracSea3921/Project5-WebGL/tree/master/earth3.png)
+![](https://github.com/DiracSea3921/Project5-WebGL/blob/master/earth3.png)
 
-![](https://github.com/DiracSea3921/Project5-WebGL/tree/master/earth4.png)
+![](https://github.com/DiracSea3921/Project5-WebGL/blob/master/earth4.png)
 
 -------------------------------------------------------------------------------
 GH-PAGES
