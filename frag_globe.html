@@ -106,7 +106,7 @@
 
 		//cloud shadow
 		vec3 cloudShadowOffset = transformMatrix * u_DirLight;
-		vec2 cloudShadowOffset2 = v_Texcoord2 + vec2(cloudShadowOffset.x * 0.01,cloudShadowOffset.y * 0.01);
+		vec2 cloudShadowOffset2 = v_Texcoord2 + vec2(-cloudShadowOffset.x * 0.01,-cloudShadowOffset.y * 0.01);
 		float cloudTransShadow = texture2D(u_CloudTrans, cloudShadowOffset2).r;
 		
         vec3 color;
